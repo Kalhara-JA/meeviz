@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# Meeviz - Movie Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+Meeviz is a mobile application designed to provide users with an easy and interactive way to browse popular movies, view their details, and track their interactions with the movies they click on. The app fetches movie data from The Movie Database (TMDb) API and displays movie posters, titles, and brief descriptions. Users can click on any movie to view more detailed information, and their interactions (clicks) are tracked and displayed in a floating button at the bottom of the screen.
 
-1. Install dependencies
+## Features
 
+- **Browse Popular Movies**: Displays a list of popular movies with their posters and titles.
+- **Movie Details**: When a user clicks on a movie, they are taken to a details page with more information like the movie's release date, rating, and overview.
+- **Click Count Tracking**: Tracks the number of movies clicked by the user and displays this count in a floating button at the bottom of the screen.
+- **Infinite Scrolling**: Automatically loads more movies when the user reaches the bottom of the list.
+- **Pull-to-Refresh**: Allows users to refresh the movie list by pulling down at the top of the list.
+
+## Installation
+
+To run this application locally, follow the steps below:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Kalhara-JA/meeviz.git
+   cd meeviz
+   ```
+
+2. **Install dependencies**:
+   Ensure you have Node.js installed, then run:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Run the app**:
+   To start the development server, run:
    ```bash
-    npx expo start
+   expo start
    ```
+   This will open a development server in your browser. You can scan the QR code with the Expo Go app on your mobile device to preview the app.
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**: Framework for building native mobile apps using React.
+- **Expo**: A framework and platform for universal React applications.
+- **Axios**: A promise-based HTTP client for making requests to The Movie Database API.
+- **TMDb API**: Provides movie data, including popular movies, details, and more.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Module
 
-## Get a fresh project
+- **IN3210 - Mobile Application Development**
 
-When you're ready, run:
+## Index
 
-```bash
-npm run reset-project
-```
+- **214097U**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Developed By
 
-## Learn more
+- **Kalhara J.A.K - Developer**
 
-To learn more about developing your project with Expo, look at the following resources:
+## License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
